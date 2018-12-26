@@ -1,5 +1,5 @@
 {
-  {word: "Repetition", stand: "Rep"},
-  {word: "Repetition maximum", stand: "RM"},
-  {word: "rounds", stand: "Rnds"}
+  {"word": "Repetition", "stand": "Rep"},
+  {"word": "Repetition maximum", "stand": "RM"},
+  {"word": "rounds", "stand": "Rnds"}
 }

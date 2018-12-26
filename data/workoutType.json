@@ -1,6 +1,6 @@
 {
-  {name: "As many repetitions as possible", abreviation: "AMRAP"},
-  {name: "As fast as possible", abreviation: "For Time"},
-  {name: "Every minute, on the minute", abreviation: "EMOM"},
-  {name: "Every X, on the minute", abreviation: "EXOM"},
+  {"name": "As many repetitions as possible", "abreviation": "AMRAP"},
+  {"name": "As fast as possible", "abreviation": "For Time"},
+  {"name": "Every minute, on the minute", "abreviation": "EMOM"},
+  {"name": "Every X, on the minute", "abreviation": "EXOM"},
 }
