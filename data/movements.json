@@ -42,7 +42,7 @@
   {"name": "Chest to bar pull-up", "abreviation": "C2B"},
   {"name": "Strict chest to bar pull-up", "abreviation": "SC2B"},
   {"name": "L-Sit", "abreviation": "LSit"},
-  {"name": "L-Sit Pull-up", "abreviation": "LSit PU"},
+  {"name": "L-Sit Pull-up", "abreviation": -"LSit PU"},
   {"name": "Box jump", "abreviation": "BJ"},
   {"name": "Dumbell Step-up" , "abreviation": "DB Step-up"}
   {"name": "Ring dip", "abreviation": ""},
@@ -54,10 +54,10 @@
   {"name": "Knees to elbows", "abreviation": "KTE"},
   {"name": "Handstand push up", "abreviation": "HSPU"},
   {"name": "Rope climb", "abreviation": ""},
-  {"name": "Legless rope climb", "abreviation": ""},
-  {"name": "Run", "abreviation": ""},
-  {"name": "Row", "abreviation": ""},
-  {"name": "Bike", "abreviation": ""},
+  {"name": "Legless rope climb", "abreviation": "LRC"},
+  {"name": "Run", "abreviation": "Run"},
+  {"name": "Row", "abreviation": "Row"},
+  {"name": "Bike", "abreviation": "Bike"},
   {"name": "Turkish get-up", "abreviation": "TGU"},
   {"name": "Devil press", "abreviation": "DP"}
 }
