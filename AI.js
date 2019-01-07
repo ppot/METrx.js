@@ -9,11 +9,23 @@ const wdays = require('./data/wDays')
 
 const weekSet = require('./exparts/wExtractWeek')
 const multipart = require('./exparts/wDayMultipart')
+const cleaing = require('./utils/wCleaning')
 
 module.exports = () => {
+  let start = new Date()
+  let hrstart = process.hrtime()
   let weekPorgram = weekSet(content, wdays.D);
   weekPorgram = multipart(weekPorgram, sections);
-  // console.log(weekPorgram);
+  weekPorgram = cleaing(weekPorgram);
+  let end = new Date() - start;
+  let hrend = process.hrtime(hrstart);
+  console.log(weekPorgram);
+  console.log('METrx'
+  ,
+  `
+  Execution time: %dms ` + end +
+  `
+  Execution time (hr): %ds %dms ` +  hrend[0] + hrend[1] / 1000000);
   // const text = `
   // Work:
   // A. Deadlift 6x 8 (ramp up)
@@ -27,28 +39,4 @@ module.exports = () => {
   // console.log('METrx'
   // ,
   // text);
-  
-  // const x  = sections.tWod(text);
-  // const y  = sections.tWrk(text);
-  // console.log(' Wod :', x);
-  // console.log(' WRK :', y);
-  
-// 
-//   let str = "Fame is the thirst of youth";
-// 
-// let result = text.match( //i );
-// 
-// console.log( result );    // Fame (the match)
-// console.log( result.index ); // 0 (at the zero position)
-// console.log( result.input ); // "Fame is the thirst of youth" (the string)
-
-  // var regexp = /abc/g;
-  // var foo = "abc1, abc2, abc3, zxy, abc4";
-  // var match, matches = [];
-  // 
-  // while ((match = regexp.exec(foo)) != null) {
-  // matches.push(match.index);
-  // }
-  // 
-  // console.log(matches);
 }
